@@ -9,7 +9,7 @@ const jade: Palette = { from: '#061712', via: '#12664e', to: '#050a08', accent: 
 export const profile = {
   fullName: 'Venu Gopal Reddy Narala',
   displayName: 'Venu Gopal Reddy Narala',
-  firstName: 'VENU GOPAL',
+  firstName: 'VENU GOPAL REDDY',
   seriesTag: 'VN SERIES',
   originalLabel: 'A VENU GOPAL REDDY ORIGINAL',
   role: 'Python Developer',

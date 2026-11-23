@@ -302,9 +302,10 @@ export type Skill = { name: string; mono: string; note?: string };
 export type SkillCategory = { id: string; title: string; subtitle: string; skills: Skill[] };
 
 export const skillCategories: SkillCategory[] = [
-  { id: 'python', title: 'Python', subtitle: 'Scripting • Automation • AI / ML', skills: [
+  { id: 'python', title: 'Python', subtitle: 'Scripting • Automation • Agentic AI', skills: [
     { name: 'Python', mono: 'Py', note: 'Primary' }, { name: 'Pandas', mono: 'Pd' }, { name: 'NumPy', mono: 'Np' },
     { name: 'OpenCV', mono: 'Cv' }, { name: 'Matplotlib', mono: 'Mt' }, { name: 'OOP', mono: 'Oo' },
+    { name: 'Agentic AI & AI Tools', mono: 'AI' },
   ] },
   { id: 'backend', title: 'Backend', subtitle: 'APIs • Routing • Services', skills: [
     { name: 'Flask', mono: 'Fl' }, { name: 'REST APIs', mono: 'Ap' }, { name: 'JSON', mono: 'Js' }, { name: 'Django', mono: 'Dj' },
@@ -325,6 +326,7 @@ export const skillCategories: SkillCategory[] = [
 
 export const skillEvidence: Record<string, string[]> = {
   Python: ['AI-powered X-ray project', 'Smart Cursor project', 'Cisco Networking and Python'],
+  'Agentic AI & AI Tools': ['AI-assisted application development', 'V CUBE internship'],
   Pandas: ['Payment Fraud Detection'],
   NumPy: ['X-ray and fraud detection projects'],
   OpenCV: ['AI-Powered Smart Cursor Control'],

@@ -82,7 +82,7 @@ export default function OpeningSequence({ onDone }: { onDone: () => void }) {
 
       {/* portrait */}
       <motion.div
-        className="absolute inset-x-0 bottom-0 z-0 mx-auto flex h-[76vh] max-w-[900px] items-end justify-center sm:h-[72vh]"
+        className="absolute bottom-[3vh] left-1/2 z-0 flex h-[76vh] w-[92vw] max-w-[900px] -translate-x-[46%] items-end justify-center sm:w-[54vw] sm:-translate-x-[42%]"
         initial={{ opacity: 0, scale: 1.12, filter: 'blur(18px) brightness(0.3)' }}
         animate={beat >= 4 ? { opacity: 1, scale: 1, filter: 'blur(0px) brightness(1)' } : {}}
         transition={{ duration: 1.6, ease: EASE }}

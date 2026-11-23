@@ -13,9 +13,9 @@ export const profile = {
   seriesTag: 'VN SERIES',
   originalLabel: 'A NARALA ORIGINAL',
   role: 'Python Developer',
-  tagline: ['Python Developer', 'Backend Development', 'Automation', 'AI / ML'],
+  tagline: ['Python Developer', 'Backend Development', 'Automation', 'AI & Data Science'],
   intro:
-    'A Computer Science Engineering graduate specializing in Artificial Intelligence and Data Science, with hands-on experience in Python development, backend applications, REST APIs, databases and AI/ML projects.',
+    'A Computer Science Engineering graduate specializing in Artificial Intelligence and Data Science, with hands-on experience in Python development, backend applications, REST APIs, databases and AI & Data Science projects.',
   location: 'Hyderabad',
   email: 'naralavenugopalreddy@gmail.com',
   phone: '+91-9121499852',
@@ -65,7 +65,7 @@ export const experience = [
     points: [
       'Practicing Python programming, object-oriented programming, data structures and problem-solving.',
       'Learning full-stack development using Django, React, SQL and REST APIs.',
-      'Exploring AI/ML, generative AI and AI-assisted application development.',
+      'Exploring AI & Data Science, generative AI and AI-assisted application development.',
     ],
   },
   {
@@ -302,7 +302,7 @@ export type Skill = { name: string; mono: string; note?: string };
 export type SkillCategory = { id: string; title: string; subtitle: string; skills: Skill[] };
 
 export const skillCategories: SkillCategory[] = [
-  { id: 'python', title: 'Python', subtitle: 'Scripting • Automation • Agentic AI', skills: [
+  { id: 'python', title: 'Python', subtitle: 'Scripting • Automation • AI & Data Science', skills: [
     { name: 'Python', mono: 'Py', note: 'Primary' }, { name: 'Pandas', mono: 'Pd' }, { name: 'NumPy', mono: 'Np' },
     { name: 'OpenCV', mono: 'Cv' }, { name: 'Matplotlib', mono: 'Mt' }, { name: 'OOP', mono: 'Oo' },
     { name: 'Agentic AI & AI Tools', mono: 'AI' },
@@ -367,7 +367,7 @@ export const seasons: Season[] = [
     synopsis: 'Practical full-stack experience through internships and application development.',
     episodes: [
       { code: 'S03 E01', title: 'The Full-Stack Intern', description: 'Built responsive web applications and connected frontend components with backend and database functionality at LearnFlu.', tags: ['HTML', 'CSS', 'JavaScript'], runtime: 'Aug 2025 – Oct 2025', palette: ocean },
-      { code: 'S03 E02', title: 'Python, AI & FDE', description: 'Practicing Python, DSA, Django, React, SQL, REST APIs and AI-assisted development at V CUBE.', tags: ['Python', 'Django', 'AI / ML'], runtime: 'Aug 2026', palette: crimson },
+      { code: 'S03 E02', title: 'Python, AI & Data Science', description: 'Practicing Python, DSA, Django, React, SQL, REST APIs and AI-assisted development at V CUBE.', tags: ['Python', 'Django', 'AI & Data Science'], runtime: 'Aug 2026', palette: crimson },
     ],
   },
   {
@@ -391,7 +391,7 @@ export const seasons: Season[] = [
 export type TopPick = { label: string; title: string; detail: string; palette: Palette };
 
 export const topPicks: TopPick[] = [
-  { label: 'Primary language', title: 'Python', detail: 'Scripting • Automation • AI / ML', palette: amber },
+  { label: 'Primary language', title: 'Python', detail: 'Scripting • Automation • AI & Data Science', palette: amber },
   { label: 'AI project', title: 'Pneumonia Detection', detail: 'TensorFlow • Keras • Grad-CAM', palette: crimson },
   { label: 'Computer vision', title: 'Smart Cursor', detail: 'OpenCV • MediaPipe • CNN', palette: ocean },
   { label: 'Machine learning', title: 'Fraud Detection', detail: 'Scikit-learn • Pandas • NumPy', palette: violet },

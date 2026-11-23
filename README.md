@@ -1,6 +1,6 @@
 # VENU GOPAL REDDY — VN SERIES
 
-A cinematic, streaming-inspired portfolio for **Venu Gopal Reddy Narala**: Python Developer, backend development and AI & Data Science.
+A cinematic, streaming-inspired portfolio for **Venu Gopal Reddy Narala**: Python Developer, backend development, Machine Learning and AI & Data Science.
 Every section is an episode, every project is an Original, and the whole site plays like a series.
 
 > A personal portfolio with a fictional streaming-platform look. It is not affiliated with Netflix or any other streaming service and uses none of their logos.

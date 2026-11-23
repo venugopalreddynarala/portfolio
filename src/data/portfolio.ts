@@ -13,9 +13,9 @@ export const profile = {
   seriesTag: 'VN SERIES',
   originalLabel: 'A NARALA ORIGINAL',
   role: 'Python Developer',
-  tagline: ['Python Developer', 'Backend Development', 'Automation', 'AI & Data Science'],
+  tagline: ['Python Developer', 'Backend Development', 'Automation', 'AI · Machine Learning · Data Science'],
   intro:
-    'A Computer Science Engineering graduate specializing in Artificial Intelligence and Data Science, with hands-on experience in Python development, backend applications, REST APIs, databases and AI & Data Science projects.',
+    'A Computer Science Engineering graduate specializing in Artificial Intelligence and Data Science, with hands-on experience in Python development, backend applications, REST APIs, databases and AI, Machine Learning and Data Science projects.',
   location: 'Hyderabad',
   email: 'naralavenugopalreddy@gmail.com',
   phone: '+91-9121499852',
@@ -65,7 +65,7 @@ export const experience = [
     points: [
       'Practicing Python programming, object-oriented programming, data structures and problem-solving.',
       'Learning full-stack development using Django, React, SQL and REST APIs.',
-      'Exploring AI & Data Science, generative AI and AI-assisted application development.',
+      'Exploring AI, Machine Learning, Data Science, generative AI and AI-assisted application development.',
     ],
   },
   {
@@ -302,9 +302,9 @@ export type Skill = { name: string; mono: string; note?: string };
 export type SkillCategory = { id: string; title: string; subtitle: string; skills: Skill[] };
 
 export const skillCategories: SkillCategory[] = [
-  { id: 'python', title: 'Python', subtitle: 'Scripting • Automation • AI & Data Science', skills: [
+  { id: 'python', title: 'Python', subtitle: 'Scripting • Automation • AI · ML · Data Science', skills: [
     { name: 'Python', mono: 'Py', note: 'Primary' }, { name: 'Pandas', mono: 'Pd' }, { name: 'NumPy', mono: 'Np' },
-    { name: 'OpenCV', mono: 'Cv' }, { name: 'Matplotlib', mono: 'Mt' }, { name: 'OOP', mono: 'Oo' },
+    { name: 'OpenCV', mono: 'Cv' }, { name: 'Matplotlib', mono: 'Mt' }, { name: 'Machine Learning', mono: 'ML' }, { name: 'OOP', mono: 'Oo' },
     { name: 'Agentic AI & AI Tools', mono: 'AI' },
   ] },
   { id: 'backend', title: 'Backend', subtitle: 'APIs • Routing • Services', skills: [
@@ -326,6 +326,7 @@ export const skillCategories: SkillCategory[] = [
 
 export const skillEvidence: Record<string, string[]> = {
   Python: ['AI-powered X-ray project', 'Smart Cursor project', 'Cisco Networking and Python'],
+  'Machine Learning': ['Payment Fraud Detection', 'Pneumonia Detection'],
   'Agentic AI & AI Tools': ['AI-assisted application development', 'V CUBE internship'],
   Pandas: ['Payment Fraud Detection'],
   NumPy: ['X-ray and fraud detection projects'],
@@ -355,7 +356,7 @@ export const seasons: Season[] = [
     ],
   },
   {
-    number: 2, title: 'Enter: AI & Data Science', period: '2022 – 2026',
+    number: 2, title: 'Enter: AI, ML & Data Science', period: '2022 – 2026',
     synopsis: 'B.Tech studies in Computer Science Engineering with specialization in AI and Data Science.',
     episodes: [
       { code: 'S02 E01', title: 'The Engineer', description: 'Pursuing B.Tech at Vel Tech Rangarajan Dr. Sagunthala R&D Institute with a CGPA of 8.0.', tags: ['B.Tech', 'AI & Data Science'], runtime: '2022 – 2026', palette: violet },
@@ -367,7 +368,7 @@ export const seasons: Season[] = [
     synopsis: 'Practical full-stack experience through internships and application development.',
     episodes: [
       { code: 'S03 E01', title: 'The Full-Stack Intern', description: 'Built responsive web applications and connected frontend components with backend and database functionality at LearnFlu.', tags: ['HTML', 'CSS', 'JavaScript'], runtime: 'Aug 2025 – Oct 2025', palette: ocean },
-      { code: 'S03 E02', title: 'Python, AI & Data Science', description: 'Practicing Python, DSA, Django, React, SQL, REST APIs and AI-assisted development at V CUBE.', tags: ['Python', 'Django', 'AI & Data Science'], runtime: 'Aug 2026', palette: crimson },
+      { code: 'S03 E02', title: 'Python, AI, ML & Data Science', description: 'Practicing Python, DSA, Django, React, SQL, REST APIs and AI-assisted development at V CUBE.', tags: ['Python', 'Django', 'AI, ML & Data Science'], runtime: 'Aug 2026', palette: crimson },
     ],
   },
   {
@@ -391,7 +392,7 @@ export const seasons: Season[] = [
 export type TopPick = { label: string; title: string; detail: string; palette: Palette };
 
 export const topPicks: TopPick[] = [
-  { label: 'Primary language', title: 'Python', detail: 'Scripting • Automation • AI & Data Science', palette: amber },
+  { label: 'Primary language', title: 'Python', detail: 'Scripting • Automation • AI · ML · Data Science', palette: amber },
   { label: 'AI project', title: 'Pneumonia Detection', detail: 'TensorFlow • Keras • Grad-CAM', palette: crimson },
   { label: 'Computer vision', title: 'Smart Cursor', detail: 'OpenCV • MediaPipe • CNN', palette: ocean },
   { label: 'Machine learning', title: 'Fraud Detection', detail: 'Scikit-learn • Pandas • NumPy', palette: violet },

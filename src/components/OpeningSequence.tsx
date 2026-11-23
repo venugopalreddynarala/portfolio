@@ -82,7 +82,7 @@ export default function OpeningSequence({ onDone }: { onDone: () => void }) {
 
       {/* portrait */}
       <motion.div
-        className="absolute bottom-[3vh] left-1/2 z-0 flex h-[76vh] w-[92vw] max-w-[900px] -translate-x-[46%] items-end justify-center sm:w-[54vw] sm:-translate-x-[42%]"
+        className="absolute bottom-[3vh] left-1/2 z-0 flex h-[76vh] w-[92vw] max-w-[900px] -translate-x-[48%] items-end justify-center sm:w-[54vw] sm:-translate-x-[48%]"
         initial={{ opacity: 0, scale: 1.12, filter: 'blur(18px) brightness(0.3)' }}
         animate={beat >= 4 ? { opacity: 1, scale: 1, filter: 'blur(0px) brightness(1)' } : {}}
         transition={{ duration: 1.6, ease: EASE }}
@@ -122,7 +122,7 @@ export default function OpeningSequence({ onDone }: { onDone: () => void }) {
       {/* role + play */}
       <div className="absolute inset-x-0 bottom-0 z-20 flex flex-col items-center gap-5 bg-gradient-to-t from-black via-black/95 to-transparent px-4 pb-[9vh] pt-20 text-center">
         <motion.p
-          className="font-sans text-[10px] font-semibold uppercase tracking-[0.22em] text-bone/90 sm:text-sm sm:tracking-[0.4em]"
+          className="hidden"
           initial={{ opacity: 0, y: 14 }}
           animate={beat >= 5 ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8, ease: EASE }}

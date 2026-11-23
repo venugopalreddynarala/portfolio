@@ -304,7 +304,7 @@ export type SkillCategory = { id: string; title: string; subtitle: string; skill
 export const skillCategories: SkillCategory[] = [
   { id: 'python', title: 'Python', subtitle: 'Scripting • Automation • AI · ML · Data Science', skills: [
     { name: 'Python', mono: 'Py', note: 'Primary' }, { name: 'Pandas', mono: 'Pd' }, { name: 'NumPy', mono: 'Np' },
-    { name: 'OpenCV', mono: 'Cv' }, { name: 'Matplotlib', mono: 'Mt' }, { name: 'Machine Learning', mono: 'ML' }, { name: 'OOP', mono: 'Oo' },
+    { name: 'OpenCV', mono: 'Cv' }, { name: 'Matplotlib', mono: 'Mt' }, { name: 'Machine Learning', mono: 'ML' }, { name: 'Object Oriented Programming', mono: 'OOP' },
      { name: 'Data Science', mono: 'DS' }, { name: 'Data Analysis', mono: 'DA' },{ name: 'Agentic AI & AI Tools', mono: 'AI' },
   ] },
   { id: 'backend', title: 'Backend', subtitle: 'APIs • Routing • Services', skills: [
